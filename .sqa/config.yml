@@ -20,54 +20,54 @@ sqa_criteria:
     repos:
       gitlab.com/PalomoIFCA/privategitlabtesting git:
         commands:
-        - /usr/bin/env sh .sqa/script.obsidian_outgoing_owl.sh
-        container: qc.acc_cyan_dedicated_jackal
+        - /usr/bin/env sh .sqa/script.ochre_unique_hornbill.sh
+        container: qc.acc_gamboge_dizzy_shark
   QC.Doc:
     repos:
       gitlab.com/PalomoIFCA/privategitlabtesting find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dahlia_independent_hyena.sh
-        container: qc.doc_polar_industrious_dolphin
+        - /usr/bin/env sh .sqa/script.watermelon_rustic_cormorant.sh
+        container: qc.doc_glacier_mindful_ferret
       gitlab.com/PalomoIFCA/privategitlabtesting git:
         commands:
-        - /usr/bin/env sh .sqa/script.turmeric_tactful_caribou.sh
-        container: qc.doc_byzantium_perky_seal
+        - /usr/bin/env sh .sqa/script.bronze_visionary_hamster.sh
+        container: qc.doc_forest_observant_okapi
       gitlab.com/PalomoIFCA/privategitlabtesting markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.peony_zany_shark.sh
-        container: qc.doc_lilac_dizzy_impala
+        - /usr/bin/env sh .sqa/script.jade_confused_angelfish.sh
+        container: qc.doc_rose_jubilant_falcon
   QC.Lic:
     repos:
       gitlab.com/PalomoIFCA/privategitlabtesting licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.pumpkin_helpful_toucan.sh
-        container: qc.lic_aqua_reckless_shark
+        - /usr/bin/env sh .sqa/script.silver_rational_hornbill.sh
+        container: qc.lic_walnut_cautious_hyena
   QC.Sec:
     repos:
       gitlab.com/PalomoIFCA/privategitlabtesting bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.snow_humble_turkey.sh
-        container: qc.sec_saffron_energetic_spren
+        - /usr/bin/env sh .sqa/script.ginger_daring_hummingbird.sh
+        container: qc.sec_cherry_articulate_narwhal
   QC.Sty:
     repos:
       gitlab.com/PalomoIFCA/privategitlabtesting flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.fuchsia_outgoing_dragonfly.sh
-        container: qc.sty_storm_fearless_grizzly
+        - /usr/bin/env sh .sqa/script.poppy_agile_beaver.sh
+        container: qc.sty_rust_open_tarantula
       gitlab.com/PalomoIFCA/privategitlabtesting jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.orchid_melancholy_gibbon.sh
-        container: qc.sty_dusk_vigilant_quokka
+        - /usr/bin/env sh .sqa/script.rose_honest_catfish.sh
+        container: qc.sty_sage_nurturing_squirrel
   QC.Uni:
     repos:
       gitlab.com/PalomoIFCA/privategitlabtesting pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.coral_delighted_spren.sh
-        container: qc.uni_apricot_zealous_octopus
+        - /usr/bin/env sh .sqa/script.alabaster_agile_orangutan.sh
+        container: qc.uni_jet_upbeat_manatee
   QC.Ver:
     repos:
       gitlab.com/PalomoIFCA/privategitlabtesting get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.polar_enthusiastic_crane.sh
-        container: qc.ver_goldenrod_tactful_raccoon
+        - /usr/bin/env sh .sqa/script.paprika_compassionate_emu.sh
+        container: qc.ver_magenta_logical_salamander
 timeout: 5400
